@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 5980449434540048022}
   - component: {fileID: 218905807773862513}
   - component: {fileID: 4279445340476143721}
-  - component: {fileID: 508704052825885408}
   m_Layer: 0
   m_Name: bullet
   m_TagString: death
@@ -163,16 +162,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &508704052825885408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5218102993749050114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42bb704d3fb02d441b81643ecb2680e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  respawnPoint: {fileID: 0}

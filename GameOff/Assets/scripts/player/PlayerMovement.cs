@@ -9,15 +9,15 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]float moonMovementSpeed = 1f;
     [SerializeField]float jupiterMovementSpeed = 1f;
     float movementSpeed = 1f;
-    float movementX;
+   public float movementX;
     float movementY;
     bool isFacingRight = true;
 
     public bool isGrounded = false;
     [SerializeField] private float jumpForce = 10f;
-    bool jumping = false;
+    private bool jumping = false;
 
-    public bool doubleJump = false;
+    bool doubleJump = false;
 
     gravity gravity;
 
@@ -25,13 +25,14 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody2D rb;
 
+    wallJump wallJump;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         gravity = GetComponent<gravity>();
         animator = GetComponent<Animator>();;
-       
+       wallJump = GetComponent<wallJump>();
     }
 
     // Update is called once per frame
@@ -94,6 +95,7 @@ public class PlayerMovement : MonoBehaviour
             else if (gravity.isSun)
                 animator.Play("sunJump");
         }
+    
         else if(jumping && doubleJump)
         {
             if(!gravity.isEarth)
@@ -129,7 +131,7 @@ public class PlayerMovement : MonoBehaviour
                 animator.Play("fallSun");
         }    
     }
-    void flip()
+    public void flip()
     {
         isFacingRight = !isFacingRight;
         transform.Rotate(0, 180, 0);

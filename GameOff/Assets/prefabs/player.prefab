@@ -165,11 +165,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3788017a0e131e94499f3d3034220286, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  earthMovementSpeed: 3
+  earthMovementSpeed: 3.5
   moonMovementSpeed: 1
   jupiterMovementSpeed: 5
   isGrounded: 0
-  jumpForce: 90
+  jumpForceEarth: 80
+  jumpForceMoon: 90
+  jumpForceSun: 90
   doubleJump: 0
 --- !u!114 &1612474343107080051
 MonoBehaviour:

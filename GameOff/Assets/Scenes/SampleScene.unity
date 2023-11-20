@@ -4097,6 +4097,18 @@ PrefabInstance:
       value: player
       objectReference: {fileID: 0}
     - target: {fileID: 5886477541263575247, guid: bbfbca0c96376a9458fc1429342e302b, type: 3}
+      propertyPath: jumpForceSun
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5886477541263575247, guid: bbfbca0c96376a9458fc1429342e302b, type: 3}
+      propertyPath: jumpForceMoon
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5886477541263575247, guid: bbfbca0c96376a9458fc1429342e302b, type: 3}
+      propertyPath: jumpForceEarth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 5886477541263575247, guid: bbfbca0c96376a9458fc1429342e302b, type: 3}
       propertyPath: earthMovementSpeed
       value: 3.5
       objectReference: {fileID: 0}

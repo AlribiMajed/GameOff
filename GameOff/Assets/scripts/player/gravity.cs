@@ -6,7 +6,7 @@ public class gravity : MonoBehaviour
 {
     float earthGravity = 9.8f;
     float moonGravity = 1.62f;
-    float jupiterGravity = 24.79f;
+    float sunGravity = 28f;
     public bool isEarth;
     public bool isMoon;
     public bool isSun;
@@ -38,7 +38,7 @@ public class gravity : MonoBehaviour
     }
     void sun()
     {
-        rb.gravityScale = jupiterGravity;
+        rb.gravityScale = sunGravity;
         isSun = true;
         isEarth = false;
         isMoon = false;

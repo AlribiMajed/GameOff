@@ -14,7 +14,10 @@ public class PlayerMovement : MonoBehaviour
     bool isFacingRight = true;
 
     public bool isGrounded = false;
-    [SerializeField] private float jumpForce = 10f;
+    private float jumpForce;
+    [SerializeField] private float jumpForceEarth = 10f;
+    [SerializeField] private float jumpForceMoon = 10f;
+    [SerializeField] private float jumpForceSun = 10f;
     bool jumping = false;
 
     public bool doubleJump = false;
@@ -51,11 +54,24 @@ public class PlayerMovement : MonoBehaviour
     public void movement()
     {
         if (gravity.isMoon)
+        {
             movementSpeed = moonMovementSpeed;
+            jumpForce = jumpForceMoon;
+            
+        }
+
         else if(gravity.isSun)
+        {
             movementSpeed = jupiterMovementSpeed;
-        else if(gravity.isEarth) 
+            jumpForce = jumpForceSun;
+        }
+
+        else if (gravity.isEarth)
+        {
+
             movementSpeed = earthMovementSpeed;
+            jumpForce = jumpForceEarth;
+        }
 
         rb.AddForce(new Vector2(movementX * movementSpeed, 0f), ForceMode2D.Impulse);    
 

@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Tilemaps;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -18,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpForceEarth = 10f;
     [SerializeField] private float jumpForceMoon = 10f;
     [SerializeField] private float jumpForceSun = 10f;
+    [SerializeField] private float doubleJumpForce;
     bool jumping = false;
 
     public bool doubleJump = false;
@@ -76,7 +76,7 @@ public class PlayerMovement : MonoBehaviour
         rb.AddForce(new Vector2(movementX * movementSpeed, 0f), ForceMode2D.Impulse);    
 
         //walk animatoin
-        if(isGrounded)
+        if(isGrounded && movementX!=0)
         {
             if (gravity.isMoon)
                 animator.Play("walkMoon");
@@ -85,6 +85,16 @@ public class PlayerMovement : MonoBehaviour
             else if (gravity.isSun)
                 animator.Play("walkSun");
         }
+        else if (isGrounded && movementX==0)
+        {
+            if (gravity.isMoon)
+                animator.Play("idleMoon");
+            else if (gravity.isEarth)
+                animator.Play("idleEarth");
+            else if (gravity.isSun)
+                animator.Play("idleSun");
+        }
+
         if (movementX < 0 && isFacingRight)
             flip();
         else if(movementX > 0 && !isFacingRight) 
@@ -118,7 +128,7 @@ public class PlayerMovement : MonoBehaviour
                 jumping = false;
                 return;
             }    
-            rb.AddForce(new Vector2(rb.velocity.x, jumpForce), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(rb.velocity.x, doubleJumpForce), ForceMode2D.Impulse);
             doubleJump = false;
             jumping = false;
 

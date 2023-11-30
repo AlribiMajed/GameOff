@@ -102,7 +102,7 @@ public class PlayerMovement : MonoBehaviour
     }
     public void jump()
     {
-        if (jumping &&!isGrounded && !doubleJump)
+        if (jumping &&!isGrounded)
             jumping = false;
 
         if (jumping && isGrounded)
@@ -120,7 +120,7 @@ public class PlayerMovement : MonoBehaviour
             else if (gravity.isSun)
                 animator.Play("sunJump");
         }
-        else if(jumping && doubleJump)
+       /* else if(jumping && doubleJump)
         {
             if(!gravity.isEarth)
             {
@@ -139,7 +139,7 @@ public class PlayerMovement : MonoBehaviour
                 animator.Play("earthJump");
             else if (gravity.isSun)
                 animator.Play("sunJump");
-        }
+        }*/
     }
  
     void fall()

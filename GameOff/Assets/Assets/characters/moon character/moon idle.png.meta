@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c451950fcc7f6c4fac3a764d151f11f
-      internalID: -1274947431
+      spriteID: fc6d6b3dc68af8d48928d0b3ddf5c565
+      internalID: -387298014
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d334372355a6894fb6da61b9f285649
-      internalID: 25620372
+      spriteID: 5d7458961077dc9408d5178e3f7a3b67
+      internalID: 1789131171
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc07c87225151d4bb4efba174ded073
-      internalID: -860124047
+      spriteID: 4e9c4c85cf723e74cbf8c8f63b72d9fd
+      internalID: -1265831721
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5795327d1c861fc459d422d8387386b9
-      internalID: 1947963426
+      spriteID: 55627607f700a9e4b93135d23e0303f1
+      internalID: -498250614
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      moon idle_0: -1274947431
-      moon idle_1: 25620372
-      moon idle_2: -860124047
-      moon idle_3: 1947963426
+      moon idle_0: -387298014
+      moon idle_1: 1789131171
+      moon idle_2: -1265831721
+      moon idle_3: -498250614
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

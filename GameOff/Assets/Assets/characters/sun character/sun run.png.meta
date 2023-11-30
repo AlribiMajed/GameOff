@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fc9ce46be933d745a248afb426bc1a0
-      internalID: -1062061805
+      spriteID: 20b42d10bdd885c4b8ae8f71e7f3c7a3
+      internalID: -108263312
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a45081d1fffe73a4d848628265bdb236
-      internalID: -418902446
+      spriteID: 0e3c6645dbf5f7744a121d2b2546cab6
+      internalID: 784869035
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2093fbbbc844f124a86753f242fb7391
-      internalID: -2055408096
+      spriteID: 4b5d4facf61a1e941ba20f8a7357cab1
+      internalID: 1306543569
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1da848d3ac32ea048adf6068078fa2fd
-      internalID: -224633577
+      spriteID: 1c6fe064ee9b3eb43a1279a38b97edb5
+      internalID: 2017025452
       vertices: []
       indices: 
       edges: []
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6950e54bf6c957941a1948a8c1965944
-      internalID: 614866800
+      spriteID: 3a82be7b77a34904b97fc70cc70060e7
+      internalID: -720833901
       vertices: []
       indices: 
       edges: []
@@ -229,8 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2f4d07943ea1e7479e2307a9f8eaade
-      internalID: -286915856
+      spriteID: 7327a0577c90d4446822541e71ff1147
+      internalID: 1411760325
       vertices: []
       indices: 
       edges: []
@@ -246,12 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sun run_0: -1062061805
-      sun run_1: -418902446
-      sun run_2: -2055408096
-      sun run_3: -224633577
-      sun run_4: 614866800
-      sun run_5: -286915856
+      sun run_0: -108263312
+      sun run_1: 784869035
+      sun run_2: 1306543569
+      sun run_3: 2017025452
+      sun run_4: -720833901
+      sun run_5: 1411760325
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

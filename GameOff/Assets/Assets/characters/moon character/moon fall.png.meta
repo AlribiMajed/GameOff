@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7c4c028bc5928fe4abb58f779b8754b9
+guid: 8f614f8e5d8339743a16330f8f1352e7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,85 +110,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: earth idle_0
+      name: moon fall_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 32
+        height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22813aeb42cc8664a85d74c44df74126
-      internalID: 1461249736
+      spriteID: d4e398e2e8a9967429a4a110855c761f
+      internalID: 1674301517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earth idle_1
+      name: moon fall_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
-        height: 32
+        height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cf745d1384f1f045b34d9bb8cb2a298
-      internalID: 1216722091
+      spriteID: a668bd5205a205d4d94deaff6811e244
+      internalID: -335179475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earth idle_2
+      name: moon fall_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
-        height: 32
+        height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 352baa3240ad60347abb7cdbe07f5840
-      internalID: -602757250
+      spriteID: d7c6685e5335077469813a679891eaa2
+      internalID: -1384015125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earth idle_3
+      name: moon fall_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
-        height: 32
+        height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f1dbc9d264940e449d7b3d844b605a1
-      internalID: -877506474
+      spriteID: 9aca352485975e943bed1aca27eb848a
+      internalID: -983997344
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      earth idle_0: 1461249736
-      earth idle_1: 1216722091
-      earth idle_2: -602757250
-      earth idle_3: -877506474
+      moon fall_0: 1674301517
+      moon fall_1: -335179475
+      moon fall_2: -1384015125
+      moon fall_3: -983997344
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

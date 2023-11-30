@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfd672eed3b088a4b88cd4113149f721
-      internalID: -518756146
+      spriteID: 8dcc30900559a594294e4ae52bb1fb28
+      internalID: -377240352
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f22d00d20240a5b4ea71b0705875c26e
-      internalID: -1294376656
+      spriteID: 247ac3756156692478d7a958293713d7
+      internalID: -1755897203
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a7d28a9b42f99e4d93506a6e1a2cf9e
-      internalID: 830534206
+      spriteID: e2b561f7178942b4987d1ba80c26e5d1
+      internalID: 1981221514
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a9a8b0dd684b494eba428c9e2772cc0
-      internalID: 1051972075
+      spriteID: 7dc9e76e75480be4bb8e68dbb640533a
+      internalID: -168352352
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sun fall_0: -518756146
-      sun fall_1: -1294376656
-      sun fall_2: 830534206
-      sun fall_3: 1051972075
+      sun fall_0: -377240352
+      sun fall_1: -1755897203
+      sun fall_2: 1981221514
+      sun fall_3: -168352352
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

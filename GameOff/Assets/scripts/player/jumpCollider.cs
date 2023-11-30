@@ -20,6 +20,13 @@ public class jumpCollider : MonoBehaviour
             playerMovement.isGrounded = true;
         }
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("ground") || other.CompareTag("platform"))
+        {
+            playerMovement.isGrounded = true;
+        }
+    }
     private void OnTriggerExit2D(Collider2D other)
     {
         if(other.CompareTag("ground") || other.CompareTag("platform"))

@@ -46,8 +46,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 16, y: 16}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec9144e9146b45b459fa851889c504d3
-      internalID: -1547053858
+      spriteID: 3b4be4bb5d4092741bafe84823896b9c
+      internalID: -45959843
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a447f48bdd15a254787918eacd148ace
-      internalID: -1667526568
+      spriteID: 9214ef648302cd14394d47f9613417ff
+      internalID: 1213627652
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b8334e014e57294196911616351cd61
-      internalID: -1137873206
+      spriteID: f83ed9cab968a094d88391c70c0153b2
+      internalID: 936049969
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92e9ebd07921f164a8214c95d1604dcf
-      internalID: 1773776205
+      spriteID: 22d3f9faf61d2a84d924a2b8f19f363b
+      internalID: 609442115
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      earth fall_0: -1547053858
-      earth fall_1: -1667526568
-      earth fall_2: -1137873206
-      earth fall_3: 1773776205
+      earth fall_0: -45959843
+      earth fall_1: 1213627652
+      earth fall_2: 936049969
+      earth fall_3: 609442115
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

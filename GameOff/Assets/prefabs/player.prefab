@@ -81,15 +81,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1858142306, guid: 1ed078671b57ef847b9bb17f4656db5f, type: 3}
+  m_Sprite: {fileID: -1518336629, guid: 7c4c028bc5928fe4abb58f779b8754b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.5, y: 2.125}
+  m_Size: {x: 4, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!70 &2679159929378107101
@@ -124,8 +124,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.035857677}
-  m_Size: {x: 1, y: 2.0717154}
+  m_Offset: {x: -0.057394743, y: -0.39652562}
+  m_Size: {x: 1.6840024, y: 3.1769214}
   m_Direction: 0
 --- !u!50 &2303611449534566777
 Rigidbody2D:
@@ -168,10 +168,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   earthMovementSpeed: 3.5
   moonMovementSpeed: 1
-  jupiterMovementSpeed: 5
+  jupiterMovementSpeed: 8.5
   isGrounded: 0
-  jumpForceEarth: 80
-  jumpForceMoon: 100
+  jumpForceEarth: 95
+  jumpForceMoon: 110
   jumpForceSun: 90
   doubleJumpForce: 80
   doubleJump: 0
@@ -259,7 +259,7 @@ Transform:
   m_GameObject: {fileID: 8715507012903652946}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.008, y: -1.408, z: 0}
+  m_LocalPosition: {x: -0.15, y: -2.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd8fdc95e6078d643963df4e6d8aba00
-      internalID: 1465682254
+      spriteID: 15d5898b050122a48beb52e6f8e0b484
+      internalID: -576389102
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14eae4be4bfaa3549af96f5a8b847c8e
-      internalID: 897089828
+      spriteID: 9b351e6076cd7d042832c348bffc5591
+      internalID: 799232451
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 677cf90e023fc834e91f20cab66a7bf5
-      internalID: -724339821
+      spriteID: 9c7ea273e34085640968c83eedddabe1
+      internalID: -1505609011
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88e1a6dc621b1924392ab5b48bbcc359
-      internalID: 1517218457
+      spriteID: 7a71a8b94a0e7884db9653111dcdcf5c
+      internalID: 817454791
       vertices: []
       indices: 
       edges: []
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3073db5dd4d53ce4f9d955a42fbdda76
-      internalID: 1105374507
+      spriteID: 90399af3048852f48a49472ef704ae72
+      internalID: 1210582714
       vertices: []
       indices: 
       edges: []
@@ -229,8 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2f10c38fc0094b4ab56ec2ead0cdde5
-      internalID: 888655550
+      spriteID: fa9b0d27ea2b03f479552e86bda1a49b
+      internalID: 2099631037
       vertices: []
       indices: 
       edges: []
@@ -246,12 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      moon run_0: 1465682254
-      moon run_1: 897089828
-      moon run_2: -724339821
-      moon run_3: 1517218457
-      moon run_4: 1105374507
-      moon run_5: 888655550
+      moon run_0: -576389102
+      moon run_1: 799232451
+      moon run_2: -1505609011
+      moon run_3: 817454791
+      moon run_4: 1210582714
+      moon run_5: 2099631037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

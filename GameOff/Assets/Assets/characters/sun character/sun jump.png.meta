@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee2153b68c1384e49a22dfed694fe6cb
-      internalID: 1020124725
+      spriteID: 6719d0b528c0c9547b3cb9bc29558854
+      internalID: -635535187
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 457a4d7c4a911594c8b6f6d5ae5d5da8
-      internalID: 739079190
+      spriteID: 270b4702a7fef6b438abf436afa09cb4
+      internalID: 999509421
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5fac74c9b9a208478283e633f932aab
-      internalID: -1302225129
+      spriteID: 74e65f60c3d9e344db37fadc1b06b76e
+      internalID: -1592058433
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44361c16f966da24f9dd57618be6cd73
-      internalID: 1677111688
+      spriteID: 9343deff35690704791ab271410f7f11
+      internalID: -595676287
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sun jump_0: 1020124725
-      sun jump_1: 739079190
-      sun jump_2: -1302225129
-      sun jump_3: 1677111688
+      sun jump_0: -635535187
+      sun jump_1: 999509421
+      sun jump_2: -1592058433
+      sun jump_3: -595676287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

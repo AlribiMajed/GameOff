@@ -32,12 +32,14 @@ public class PlayerMovement : MonoBehaviour
     public bool sunFound = false;
     public bool moonFound = false;
 
+    AudioManager audioManager;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         gravity = GetComponent<gravity>();
-        animator = GetComponent<Animator>();;
+        animator = GetComponent<Animator>();
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
        
     }
 
@@ -112,6 +114,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (jumping && isGrounded)
         {
+            audioManager.PlaySFX(audioManager.jump);
             rb.AddForce(new Vector2(rb.velocity.x,jumpForce),ForceMode2D.Impulse);
             isGrounded = false;
             jumping = false;

@@ -21,10 +21,18 @@ public class PlayerDeath : MonoBehaviour
         if(other.gameObject.CompareTag("death"))
         {
             transform.position = respawnPoint.position;
+            if(respawnPoint == GameObject.Find("firstCheckpoint").transform)
+            {
             pm.moonFound = false;
             pm.sunFound = false;
             GameObject.Find("moon").GetComponent<SpriteRenderer>().enabled = true;
             GameObject.Find("sun").GetComponent<SpriteRenderer>().enabled = true;
+            }
+
+            GetComponent<gravity>().isEarth = true;
+            GetComponent<gravity>().isMoon = false;
+            GetComponent<gravity>().isSun = false;
+
         }
     }
 }

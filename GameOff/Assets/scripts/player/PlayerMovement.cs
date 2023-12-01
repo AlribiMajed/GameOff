@@ -170,13 +170,11 @@ public class PlayerMovement : MonoBehaviour
         if (other.name == "moon")
         {
             moonFound = true;
-            Debug.Log("Moon found:" + moonFound);
             other.gameObject.GetComponent<SpriteRenderer>().enabled = false;  
         }
         else if (other.name == "sun")
         {
             sunFound = true;
-            print("Sun found:" + sunFound);
             other.gameObject.GetComponent<SpriteRenderer>().enabled = false;
         }
         else

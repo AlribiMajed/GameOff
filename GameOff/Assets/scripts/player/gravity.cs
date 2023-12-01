@@ -5,7 +5,7 @@ using UnityEngine;
 public class gravity : MonoBehaviour
 {
     float earthGravity = 9.8f;
-    float moonGravity = 1.62f;
+    float moonGravity = 4f;
     float sunGravity = 20f;
     public bool isEarth;
     public bool isMoon;

@@ -5,9 +5,10 @@ using UnityEngine;
 public class PlayerDeath : MonoBehaviour
 {
     public Transform respawnPoint;
+    PlayerMovement pm;
     void Start()
     {
-         
+         pm = GetComponent<PlayerMovement>();
     }
 
     // Update is called once per frame
@@ -20,6 +21,10 @@ public class PlayerDeath : MonoBehaviour
         if(other.gameObject.CompareTag("death"))
         {
             transform.position = respawnPoint.position;
+            pm.moonFound = false;
+            pm.sunFound = false;
+            GameObject.Find("moon").GetComponent<SpriteRenderer>().enabled = true;
+            GameObject.Find("sun").GetComponent<SpriteRenderer>().enabled = true;
         }
     }
 }

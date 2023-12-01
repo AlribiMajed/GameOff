@@ -22,11 +22,11 @@ public class gravity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("moon"))
+        if (Input.GetButtonDown("moon") && pm.moonFound)
             moon();
         else if (Input.GetButtonDown("earth"))
             earth();
-        else if (Input.GetButtonDown("sun"))
+        else if (Input.GetButtonDown("sun") && pm.sunFound)
             sun();
     }
     void moon()

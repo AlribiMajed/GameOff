@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 513685bc7597c6b4d9f84d98e745c451
+guid: ddcb42c3fa75a98419e69e932f47c446
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,102 +106,89 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: earth fall_0
+      name: earth idle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 64
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b4be4bb5d4092741bafe84823896b9c
-      internalID: -45959843
+      spriteID: 22813aeb42cc8664a85d74c44df74126
+      internalID: 1461249736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earth fall_1
+      name: earth idle_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
-        height: 64
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9214ef648302cd14394d47f9613417ff
-      internalID: 1213627652
+      spriteID: 5cf745d1384f1f045b34d9bb8cb2a298
+      internalID: 1216722091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earth fall_2
+      name: earth idle_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
-        height: 64
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f83ed9cab968a094d88391c70c0153b2
-      internalID: 936049969
+      spriteID: 352baa3240ad60347abb7cdbe07f5840
+      internalID: -602757250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earth fall_3
+      name: earth idle_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
-        height: 64
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22d3f9faf61d2a84d924a2b8f19f363b
-      internalID: 609442115
+      spriteID: 4f1dbc9d264940e449d7b3d844b605a1
+      internalID: -877506474
       vertices: []
       indices: 
       edges: []
@@ -217,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      earth fall_0: -45959843
-      earth fall_1: 1213627652
-      earth fall_2: 936049969
-      earth fall_3: 609442115
+      earth idle_0: 1461249736
+      earth idle_1: 1216722091
+      earth idle_2: -602757250
+      earth idle_3: -877506474
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

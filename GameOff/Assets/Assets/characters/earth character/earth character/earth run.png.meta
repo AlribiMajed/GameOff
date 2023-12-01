@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 513685bc7597c6b4d9f84d98e745c451
+guid: 1c65ba38e668e054eac3fd3f743766e3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,102 +106,131 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: earth fall_0
+      name: earth run_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 64
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b4be4bb5d4092741bafe84823896b9c
-      internalID: -45959843
+      spriteID: 0dddc58d3bee0a0479b27d287bd68282
+      internalID: -1846062297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earth fall_1
+      name: earth run_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
-        height: 64
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9214ef648302cd14394d47f9613417ff
-      internalID: 1213627652
+      spriteID: 004db6c68933dba409988ea00ccd0f56
+      internalID: 1953164744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earth fall_2
+      name: earth run_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
-        height: 64
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f83ed9cab968a094d88391c70c0153b2
-      internalID: 936049969
+      spriteID: dbe76b14b2657094d95e8ac1d13a276b
+      internalID: 35817910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earth fall_3
+      name: earth run_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
-        height: 64
+        height: 32
       alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22d3f9faf61d2a84d924a2b8f19f363b
-      internalID: 609442115
+      spriteID: a5b1e856de568214ca82ac3cc2aba790
+      internalID: 1857145983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth run_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa55c3c58e1e244489ded35e5e95c4a
+      internalID: 834619168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earth run_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca27a2f13ff46fc48bb2cd142b88032a
+      internalID: 1360014797
       vertices: []
       indices: 
       edges: []
@@ -217,10 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      earth fall_0: -45959843
-      earth fall_1: 1213627652
-      earth fall_2: 936049969
-      earth fall_3: 609442115
+      earth run_0: -1846062297
+      earth run_1: 1953164744
+      earth run_2: 35817910
+      earth run_3: 1857145983
+      earth run_4: 834619168
+      earth run_5: 1360014797
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

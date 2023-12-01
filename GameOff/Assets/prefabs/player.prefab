@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1518336629, guid: 7c4c028bc5928fe4abb58f779b8754b9, type: 3}
+  m_Sprite: {fileID: 1461249736, guid: 7c4c028bc5928fe4abb58f779b8754b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -89,7 +89,7 @@ SpriteRenderer:
   m_Size: {x: 4, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!70 &2679159929378107101
@@ -167,14 +167,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   earthMovementSpeed: 3.5
-  moonMovementSpeed: 1
+  moonMovementSpeed: 1.6
   jupiterMovementSpeed: 8.5
   isGrounded: 0
-  jumpForceEarth: 95
-  jumpForceMoon: 110
+  jumpForceEarth: 110
+  jumpForceMoon: 140
   jumpForceSun: 90
   doubleJumpForce: 80
   doubleJump: 0
+  sunFound: 0
+  moonFound: 0
 --- !u!114 &1612474343107080051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,7 +261,7 @@ Transform:
   m_GameObject: {fileID: 8715507012903652946}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.15, y: -2.34, z: 0}
+  m_LocalPosition: {x: -0.08, y: -2.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -297,7 +299,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.001091361, y: 0.26734352}
+  m_Offset: {x: -0.04495859, y: 0.19605899}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -308,7 +310,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2542179, y: 0.18344402}
+  m_Size: {x: 1.4735541, y: 0.3260131}
   m_EdgeRadius: 0
 --- !u!114 &6068880115561276525
 MonoBehaviour:

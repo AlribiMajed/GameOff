@@ -5,7 +5,7 @@ using UnityEngine;
 public class gravity : MonoBehaviour
 {
     float earthGravity = 9.8f;
-    float moonGravity = 1.62f;
+    float moonGravity = 4f;
     float sunGravity = 20f;
     public bool isEarth;
     public bool isMoon;
@@ -22,11 +22,11 @@ public class gravity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("moon"))
+        if (Input.GetButtonDown("moon") && pm.moonFound)
             moon();
         else if (Input.GetButtonDown("earth"))
             earth();
-        else if (Input.GetButtonDown("sun"))
+        else if (Input.GetButtonDown("sun") && pm.sunFound)
             sun();
     }
     void moon()

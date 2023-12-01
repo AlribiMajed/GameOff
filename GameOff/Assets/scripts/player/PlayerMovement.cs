@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -27,6 +28,9 @@ public class PlayerMovement : MonoBehaviour
     Animator animator;
 
     Rigidbody2D rb;
+
+    public bool sunFound = false;
+    public bool moonFound = false;
 
 
     void Start()
@@ -161,6 +165,22 @@ public class PlayerMovement : MonoBehaviour
         isFacingRight = !isFacingRight;
         transform.Rotate(0, 180, 0);
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.name == "moon")
+        {
+            moonFound = true;
+            other.gameObject.GetComponent<SpriteRenderer>().enabled = false;  
+        }
+        else if (other.name == "sun")
+        {
+            sunFound = true;
+            other.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        else
+            return;
 
- 
+    }
+
+
 }

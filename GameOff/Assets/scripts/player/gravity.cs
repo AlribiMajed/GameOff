@@ -11,12 +11,14 @@ public class gravity : MonoBehaviour
     public bool isMoon;
     public bool isSun;
     PlayerMovement pm;
+    AudioManager audioManager;
 
     Rigidbody2D rb;
     void Start()
     {
        rb = GetComponent<Rigidbody2D>();
         pm = GetComponent<PlayerMovement>();
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
     }
 
     // Update is called once per frame
@@ -31,6 +33,7 @@ public class gravity : MonoBehaviour
     }
     void moon()
     {
+        audioManager.PlaySFX(audioManager.moon);
         rb.gravityScale = moonGravity;
         isMoon = true;
         isEarth = false;
@@ -38,6 +41,7 @@ public class gravity : MonoBehaviour
     }
     void sun()
     {
+        audioManager.PlaySFX(audioManager.sun);
         rb.gravityScale = sunGravity;
         isSun = true;
         isEarth = false;
@@ -45,6 +49,7 @@ public class gravity : MonoBehaviour
     }
     void earth()
     {
+        audioManager.PlaySFX(audioManager.earth);
         rb.gravityScale = earthGravity;
         isEarth = true;
         isSun = false;

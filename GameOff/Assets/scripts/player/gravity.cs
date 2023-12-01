@@ -6,7 +6,7 @@ public class gravity : MonoBehaviour
 {
     float earthGravity = 9.8f;
     float moonGravity = 1.62f;
-    float sunGravity = 28f;
+    float sunGravity = 20f;
     public bool isEarth;
     public bool isMoon;
     public bool isSun;

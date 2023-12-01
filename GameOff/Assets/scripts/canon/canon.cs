@@ -8,8 +8,12 @@ public class canon : MonoBehaviour
     float lastShotTime;
     public Transform bulletPosition;
     public GameObject bullet;
+    public bool Shooting = true;
 
-    // Update is called once per frame
+    private void Start()
+    {
+        Shooting = true;
+    }
     void Update()
     {
         fire();
@@ -18,8 +22,12 @@ public class canon : MonoBehaviour
     {
         if (Time.time - lastShotTime < coolDown)
             return;
+        if (Shooting)
+        {
         lastShotTime = Time.time;
         Instantiate(bullet,bulletPosition.position,bulletPosition.rotation);
+        }
+
         
     }
 }

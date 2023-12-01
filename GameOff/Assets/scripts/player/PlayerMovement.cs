@@ -43,13 +43,14 @@ public class PlayerMovement : MonoBehaviour
         movementX = Input.GetAxisRaw("Horizontal");
         if(Input.GetButtonDown("Jump"))
             jumping = true;
-        fall();
+        fall(); 
+        jump();
     }
     void FixedUpdate()
     {
         
         movement();
-        jump();
+
     }
     public void movement()
     {
